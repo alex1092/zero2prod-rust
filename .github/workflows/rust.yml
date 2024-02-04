@@ -24,6 +24,7 @@ jobs:
 
   build:
 
+    needs: lint
     runs-on: ubuntu-latest
 
     steps:
